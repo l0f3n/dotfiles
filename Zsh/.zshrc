@@ -1,4 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
+export ZSH_CUSTOM="$HOME/.config/zsh-custom"
 export LANG=en_US.UTF-8
 
 ZSH_THEME="robbyrussell"  # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes

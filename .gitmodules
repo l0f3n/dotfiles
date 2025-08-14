@@ -1,3 +1,9 @@
 [submodule "Zsh/.oh-my-zsh"]
 	path = Zsh/.oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "Zsh/.config/zsh-custom/plugins/zsh-autosuggestions"]
+	path = Zsh/.config/zsh-custom/plugins/zsh-autosuggestions
+	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule "Zsh/.config/zsh-custom/plugins/zsh-syntax-highlighting"]
+	path = Zsh/.config/zsh-custom/plugins/zsh-syntax-highlighting
+	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
