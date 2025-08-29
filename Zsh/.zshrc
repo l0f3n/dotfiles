@@ -5,7 +5,7 @@ export LANG=en_US.UTF-8
 ZSH_THEME="robbyrussell"  # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 HYPHEN_INSENSITIVE="true"
 
-zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+zstyle ':omz:update' mode auto # just remind me to update when it's time
 
 plugins=(
   git
@@ -14,3 +14,4 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+export PATH=/home/victor/.local/bin:$PATH
