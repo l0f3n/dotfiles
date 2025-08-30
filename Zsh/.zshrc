@@ -14,7 +14,6 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
-export PATH=/home/victor/.local/bin:$PATH
 export EDITOR=nvim
 
 [ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
