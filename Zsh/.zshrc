@@ -15,3 +15,4 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 export PATH=/home/victor/.local/bin:$PATH
+export EDITOR=nvim
