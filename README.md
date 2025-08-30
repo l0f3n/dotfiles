@@ -1,7 +1,7 @@
 # dotfiles
 
-Intended to be used with `stow`:
+Use `stow` to use individual configs or simply run `init.sh`.
 
 ```bash
-stow -t ~ Default
+stow -t ~ Tmux
 ```
