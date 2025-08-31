@@ -24,9 +24,7 @@ if [ $(systemctl is-enabled bluetooth) != "enabled" ]; then
 	systemctl enable --now bluetooth
 fi
 
-stow -t ~ Lazygit
-stow -t ~ Tmux
-stow -t ~ Zsh
+stow -t ~ */
 
 tmux source ~/.config/tmux/tmux.conf
 
