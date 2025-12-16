@@ -9,11 +9,16 @@ zstyle ':omz:update' mode auto # just remind me to update when it's time
 
 plugins=(
   git
+  kubectl
   zsh-syntax-highlighting
   zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
-export EDITOR=nvim
 
-[ -z "$TMUX"  ] && { tmux attach || exec tmux new-session && exit;}
+export EDITOR=nvim
+export VISUAL=nvim
+alias vim=nvim
+alias vi=nvim
+
+[ -z "$TMUX"  ] && { exec tmux new-session && exit;}
