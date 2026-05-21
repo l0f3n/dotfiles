@@ -21,4 +21,5 @@ export VISUAL=nvim
 alias vim=nvim
 alias vi=nvim
 
-[ -z "$TMUX"  ] && { exec tmux new-session && exit;}
+[ -z "$TMUX" ] && { exec tmux new-session && exit;}
+
